@@ -1,0 +1,88 @@
+{
+  "E2801191A5030060ACB87676": {
+    "owner": "TAG-1",
+    "note": "pierwszy testowy tag"
+  },
+  "000000000000000000003773": {
+    "owner": "TAG-2",
+    "note": "nowy tag testowy"
+  },
+
+  "000000000000000000001651": {
+    "owner": "TAG-3",
+    "note": "tag testowy 3"
+  },
+  "000000000000000000001803": {
+    "owner": "TAG-4",
+    "note": "tag testowy 4"
+  },
+  "000000000000000000001933": {
+    "owner": "TAG-5",
+    "note": "tag testowy 5"
+  },
+  "000000000000000000003526": {
+    "owner": "TAG-6",
+    "note": "tag testowy 6"
+  },
+  "000000000000000000003533": {
+    "owner": "TAG-7",
+    "note": "tag testowy 7"
+  },
+  "000000000000000000003625": {
+    "owner": "TAG-8",
+    "note": "tag testowy 8"
+  },
+  "000000000000000000003656": {
+    "owner": "TAG-9",
+    "note": "tag testowy 9"
+  },
+  "000000000000000000003809": {
+    "owner": "TAG-10",
+    "note": "tag testowy 10"
+  },
+
+  "E2801191A5030060ACB60796": {
+    "owner": "TAG-11",
+    "note": "tag testowy 11"
+  },
+  "E2801191A5030060ACB70256": {
+    "owner": "TAG-12",
+    "note": "tag testowy 12"
+  },
+  "E2801191A5030060ACB78766": {
+    "owner": "TAG-13",
+    "note": "tag testowy 13"
+  },
+  "E2801191A5030060ACB82CF6": {
+    "owner": "TAG-14",
+    "note": "tag testowy 14"
+  },
+  "E2801191A5030060ACB83166": {
+    "owner": "TAG-15",
+    "note": "tag testowy 15"
+  },
+  "E2801191A5030060ACB9D116": {
+    "owner": "TAG-16",
+    "note": "tag testowy 16"
+  },
+  "E2801191A5030060ACB9E216": {
+    "owner": "TAG-17",
+    "note": "tag testowy 17"
+  },
+  "E2801191A5030060ACBA67B2": {
+    "owner": "TAG-18",
+    "note": "tag testowy 18"
+  },
+  "E2801191A5030060ACBB76C6": {
+    "owner": "TAG-19",
+    "note": "tag testowy 19"
+  },
+  "E2801191A5030060ACBC6C96": {
+    "owner": "TAG-20",
+    "note": "tag testowy 20"
+  },
+  "E2801191A5030060ACBCB6D6": {
+    "owner": "TAG-21",
+    "note": "tag testowy 21"
+  }
+}
