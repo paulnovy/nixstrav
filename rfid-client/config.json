@@ -1,9 +1,0 @@
-{
-  "reader_id": "innod-wejscie-1",
-  "serial_port": "/dev/ttyS0",
-  "baudrate": 115200,
-  "server_url": "http://192.168.67.10:5000/api/tags",
-  "db_path": "/opt/rfid-wejscie/events.db",
-  "send_batch_size": 200,
-  "send_interval_sec": 2
-}
