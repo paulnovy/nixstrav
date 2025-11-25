@@ -1,0 +1,60 @@
+{
+  "db_path": "/opt/rfid-server/events.db",
+  "listen_host": "0.0.0.0",
+  "listen_port": 5000,
+
+  "known_tags_file": "/opt/rfid-server/known_tags.json",
+
+  "dedup": {
+    "window_sec": 10,
+    "ignore_late_sec": 300
+  },
+
+  "relay": {
+    "enabled": true,
+    "port": "/dev/serial/by-id/usb-Prolific_Technology_Inc._USB-Serial_Controller_CPDBb144J08-if00-port0",
+    "baudrate": 9600,
+    "timeout_sec": 0.5,
+    "mapping": {
+      "cf661-pralnia": 1,
+      "cf661-jadalnia-1": 2,
+      "cf661-jadalnia-2": 2,
+      "innod-wejscie-1": 3,
+      "cf-ru5112-brama-1": 4
+    }
+  },
+
+  "reader_schedules": {
+    "cf661-pralnia": {
+      "mode": "window",
+      "start_hour": 19,
+      "end_hour": 5
+    },
+    "cf661-jadalnia-1": {
+      "mode": "window",
+      "start_hour": 19,
+      "end_hour": 5
+    },
+    "cf661-jadalnia-2": {
+      "mode": "window",
+      "start_hour": 19,
+      "end_hour": 5
+    },
+    "innod-wejscie-1": {
+      "mode": "window",
+      "start_hour": 19,
+      "end_hour": 5
+    },
+    "cf-ru5112-brama-1": {
+      "mode": "always"
+    }
+  },
+
+  "retention": {
+    "max_events": 1000000
+  },
+
+  "logging": {
+    "level": "INFO"
+  }
+}
