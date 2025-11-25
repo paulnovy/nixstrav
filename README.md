@@ -29,7 +29,7 @@ This project is an **RFID-driven IoT perimeter monitoring system**:
 - The relay board is wired into a **Satel Integra + INT-E** input to:
   - trigger alarm sirens,
   - integrate with the existing intrusion/technical alarm infrastructure,
-  - act as a hardware trigger for **push and SMS notifications** (via external automation, e.g. n8n).
+  - act as a hardware trigger for **push and SMS notifications** 
 
 Primary use case: **exit monitoring for residents with dementia** in a care facility  
 (but architecture is generic enough for warehouses, logistics yards, access control, etc.).
@@ -290,7 +290,7 @@ For each tag read:
 
 - For now tags are named generically (`TAG-1`, `TAG-2`, …) to keep code independent from personal data.
 
-In a real deployment, this would be extended with:
+In a final deployment, this would be extended with:
 
 - resident ID,
 - photo/room mapping,
@@ -392,7 +392,6 @@ a new reader type = a new small edge client.
 
 - n8n workflows:
   - Telegram node notifications (photo snapshot + reader name + timestamp),
-  - SMS via gateway,
   - email alerts for specific tags or readers.
 - Integration with **Home Assistant** / other IoT hubs.
 
@@ -448,6 +447,7 @@ This repository uses a **simple semantic versioning** scheme:
     - Telegram notifications with camera picture capture,
     - SMS / push notifications for specific tags/readers,
     - optional integration with Home Assistant / other IoT platforms.
+    - AI-powered system healthcheck, anomaly detection.
 
 Later versions can introduce:
 
